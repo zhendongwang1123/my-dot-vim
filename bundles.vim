@@ -8,10 +8,29 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+" Genereal
+Bundle 'tpope/vim-repeat'
+Bundle 'rhysd/conflict-marker.vim'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'vim-scripts/sessionman.vim'
+Bundle 'airblade/vim-rooter'
+Bundle 'bling/vim-bufferline'
+Bundle 'easymotion/vim-easymotion'
+Bundle 'flazz/vim-colorschemes'
+Bundle 'mbbill/undotree'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'tpope/vim-abolish.git'
+Bundle 'osyo-manga/vim-over'
+Bundle 'gcmt/wildfire.vim'
+
 "------------------
 " Code Completions
 "------------------
 Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplete.vim.git'
+Bundle 'Shougo/neosnippet'
+Bundle 'Shougo/neosnippet-snippets'
+Bundle 'Shougo/vimproc.vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
@@ -35,25 +54,42 @@ Bundle 'Lokaltog/vim-easymotion'
 "--------------
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'tpope/vim-commentary'
 Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'jiangmiao/auto-pairs'
+Bundle 'tpope/vim-abolish.git'
+Bundle 'osyo-manga/vim-over'
+Bundle 'kana/vim-textobj-user'
+Bundle 'kana/vim-textobj-indent'
+Bundle 'reedes/vim-litecorrect'
+Bundle 'reedes/vim-textobj-sentence'
+Bundle 'reedes/vim-textobj-quote'
+Bundle 'reedes/vim-wordy'
 
 "--------------
 " IDE features
 "--------------
 Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'humiaozuzu/TabBar'
 Bundle 'majutsushi/tagbar'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
+Bundle 'tacahiroy/ctrlp-funky'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'tpope/vim-fugitive'
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/gist-vim'
 Bundle 'mhinz/vim-signify'
 Bundle 'vim-airline/vim-airline'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'powerline/fonts'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+
+
 
 "-------------
 " Other Utils
@@ -95,6 +131,13 @@ Bundle 'kien/rainbow_parentheses.vim'
 " Bundle 'wlangstroth/vim-racket'
 " Bundle 'vim-scripts/VimClojure'
 " Bundle 'rosstimson/scala-vim-support'
+
+" Misc
+Bundle 'rust-lang/rust.vim'
+Bundle 'tpope/vim-cucumber'
+Bundle 'cespare/vim-toml'
+Bundle 'quentindecock/vim-cucumber-align-pipes'
+Bundle 'saltstack/salt-vim'
 
 "--------------
 " Color Schemes
